@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* 1. 본인 사진과 개인 소개 스타일 */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.photo-container {
+    margin-bottom: 10px;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* 제목 스타일 */
+.header-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* 모든 것들의 신 스타일 */
+.centered-italic-text {
+    text-align: center;
+    font-style: italic;
+    color: #ff0000;
+    margin: 20px;
+}
+
+/* 2. 개인 소개 테이블 스타일 */
+.intro-table {
+    margin-top: 10px;
+    background-color: #000;
+    color: #ff0000;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+
+/* 6. 다른 크기의 글씨 스타일 */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2e8b57;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #696969;
+}
+
+/* 8. 검색엔진 링크 이미지 스타일 */
+.search-engine-links {
+    text-align: center;
+    margin-top: 30px;
+}
+.search-engine-links img {
+    width: 100px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+.search-engine-links img:hover {
+    transform: scale(1.1);
+}
+
+/* 9. 유튜브 비디오 삽입 */
+.youtube-video {
+    text-align: center;
+    margin-top: 40px;
+}
+.youtube-video iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+}
